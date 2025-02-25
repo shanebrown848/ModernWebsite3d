@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Modern Website</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+  <body>
+    <!-- Background Animation Layer (Controlled by Cubes) -->
+    <div class="background-animation animated-background"></div>
+  
+    <header>
+      <nav class="navbar">
+        <div class="logo">ModernSite</div>
+        <ul class="nav-links"></ul>
+      </nav>
+    </header>
+  
+    <!-- Hero Section with 3D Chess Piece -->
+    <section id="home" class="hero">
+      <div class="canvas-container">
+        <canvas id="chessCanvas"></canvas>
+      </div>
+  
+      <div class="hero-content">
+        <h1 class="fade-in-text">Welcome to My Modern Website</h1>
+        <p class="fade-in-text">Building beautiful, responsive designs with HTML, Advanced CSS, and a little bit of JavaScript.</p>
+        <a href="https://shanesdesignstudio.tech" class="btn" target="_blank" rel="noopener">View Portfolio</a>
+      </div>
+    </section>
+  
+    <!-- 3D Cube Section - Controls Background Animation -->
+    <div class="container">
+        <div class="flex">
+          <div class="cube">
+            <div class="wall front"></div>
+            <div class="wall back"></div>
+            <div class="wall left"></div>
+            <div class="wall right"></div>
+            <div class="wall top"></div>
+            <div class="wall bottom"></div>
+          </div>
+          <div class="cube">
+            <div class="wall front"></div>
+            <div class="wall back"></div>
+            <div class="wall left"></div>
+            <div class="wall right"></div>
+            <div class="wall top"></div>
+            <div class="wall bottom"></div>
+          </div>
+          <div class="cube">
+            <div class="wall front"></div>
+            <div class="wall back"></div>
+            <div class="wall left"></div>
+            <div class="wall right"></div>
+            <div class="wall top"></div>
+            <div class="wall bottom"></div>
+          </div>
+          <div class="cube">
+            <div class="wall front"></div>
+            <div class="wall back"></div>
+            <div class="wall left"></div>
+            <div class="wall right"></div>
+            <div class="wall top"></div>
+            <div class="wall bottom"></div>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="cube">
+            <div class="wall front"></div>
+            <div class="wall back"></div>
+            <div class="wall left"></div>
+            <div class="wall right"></div>
+            <div class="wall top"></div>
+            <div class="wall bottom"></div>
+          </div>
+          <div class="cube">
+            <div class="wall front"></div>
+            <div class="wall back"></div>
+            <div class="wall left"></div>
+            <div class="wall right"></div>
+            <div class="wall top"></div>
+            <div class="wall bottom"></div>
+          </div>
+          <div class="cube">
+            <div class="wall front"></div>
+            <div class="wall back"></div>
+            <div class="wall left"></div>
+            <div class="wall right"></div>
+            <div class="wall top"></div>
+            <div class="wall bottom"></div>
+          </div>
+          <div class="cube">
+            <div class="wall front"></div>
+            <div class="wall back"></div>
+            <div class="wall left"></div>
+            <div class="wall right"></div>
+            <div class="wall top"></div>
+            <div class="wall bottom"></div>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="cube">
+            <div class="wall front"></div>
+            <div class="wall back"></div>
+            <div class="wall left"></div>
+            <div class="wall right"></div>
+            <div class="wall top"></div>
+            <div class="wall bottom"></div>
+          </div>
+          <div class="cube">
+            <div class="wall front"></div>
+            <div class="wall back"></div>
+            <div class="wall left"></div>
+            <div class="wall right"></div>
+            <div class="wall top"></div>
+            <div class="wall bottom"></div>
+          </div>
+          <div class="cube">
+            <div class="wall front"></div>
+            <div class="wall back"></div>
+            <div class="wall left"></div>
+            <div class="wall right"></div>
+            <div class="wall top"></div>
+            <div class="wall bottom"></div>
+          </div>
+          <div class="cube">
+            <div class="wall front"></div>
+            <div class="wall back"></div>
+            <div class="wall left"></div>
+            <div class="wall right"></div>
+            <div class="wall top"></div>
+            <div class="wall bottom"></div>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="cube">
+            <div class="wall front"></div>
+            <div class="wall back"></div>
+            <div class="wall left"></div>
+            <div class="wall right"></div>
+            <div class="wall top"></div>
+            <div class="wall bottom"></div>
+          </div>
+          <div class="cube">
+            <div class="wall front"></div>
+            <div class="wall back"></div>
+            <div class="wall left"></div>
+            <div class="wall right"></div>
+            <div class="wall top"></div>
+            <div class="wall bottom"></div>
+          </div>
+          <div class="cube">
+            <div class="wall front"></div>
+            <div class="wall back"></div>
+            <div class="wall left"></div>
+            <div class="wall right"></div>
+            <div class="wall top"></div>
+            <div class="wall bottom"></div>
+          </div>
+          <div class="cube">
+            <div class="wall front"></div>
+            <div class="wall back"></div>
+            <div class="wall left"></div>
+            <div class="wall right"></div>
+            <div class="wall top"></div>
+            <div class="wall bottom"></div>
+          </div>
+        </div>
+      </div>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="scripts/threejs-knight.js"></script>
+    <script src="scripts/background-transition.js"></script> <!-- Add this new script -->
+  </body>
+  
+</html>
