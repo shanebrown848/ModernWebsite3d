@@ -1,9 +1,10 @@
 # 🌐 ModernWebsite3D
 
-![HTML](https://img.shields.io/badge/HTML-Used-in-red?style=flat-square&logo=html5)
-![CSS](https://img.shields.io/badge/CSS-Modern%20Styling-blue?style=flat-square&logo=css3)
+![HTML5](https://img.shields.io/badge/HTML5-Used-orange?style=flat-square&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-Styling-blue?style=flat-square&logo=css3)
 ![JavaScript](https://img.shields.io/badge/JavaScript-Interactive-yellow?style=flat-square&logo=javascript)
-![Status](https://img.shields.io/badge/Project-Active-brightgreen?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
+
 
 **ModernWebsite3D** is a creative, responsive 3D-style landing page designed to showcase futuristic aesthetics with dynamic elements. Built with clean HTML, CSS, and JavaScript, this project combines simplicity with a bold modern look—ideal for portfolios, small business sites, or product showcases.
 
@@ -51,7 +52,7 @@ cd ModernWebsite3D
 
 ## 📸 Preview
 
-> (Add screenshots or a link to a live preview here!)
+https://shanebrown848.github.io/ModernWebsite3d/
 
 ---
 
